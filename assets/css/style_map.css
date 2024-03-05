@@ -11,8 +11,14 @@
     --text-color:#667085;
     --gray:#8B8B8B;
     --white:#FFFFFF;   
-    font-family: sans-serif;
 }
+
+body{
+    font-family:'Inter',sans-serif;
+    font-size: 20px;
+    color: var(--text-color)
+}
+
 /* NAV BAR */
 /* .nav-bar,  .nb-left, .nb-righ{
     border: solid red 1px; */
@@ -63,15 +69,15 @@
 
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
 
-    padding: 8px 50px;
+    padding: 0 150px;
 
  
 }   
     
 .connexion1{
-    width: 100px;
+    width: 94px;
     height: 50px;
     background-color: var(--white);
     border: solid --black;
@@ -82,7 +88,7 @@
 
 
 .inscrire1{
-    width: 100px;
+    width: 94px;
     height: 50px;
     background-color: var(--black);
     border: solid --black;
@@ -107,8 +113,6 @@
     font-size: 16px;
     align-items: center;
     border: 0px 0px 2px 0px;
-    font: 700;
-
 }
 
 /* Page1 */
@@ -121,23 +125,23 @@
 }
 
 .high{
-    width: 100%;
-    margin: 0%;
+    width: 70%;
+    margin: 0 15%;
 }
 .title1{
     font-size: 60px;
     color: var(--title-color);
     font-weight: 600;
-    margin: 0 17%;
+    margin: 0 12.5%;
 }
 
 .text1{
     width: 100%;
-    padding: 50px 4px;
+    padding: 50px 40px;
 }
 
 .description1{
-    margin: 50px 28%;
+    margin: 50px 25%;
     font-size: 20px;
 }
 
@@ -186,7 +190,7 @@
 
 .img1{
 text-align: right;
-margin:0 3%;
+margin:0 12%;
 width:0 1222px;
 }
 
@@ -308,13 +312,13 @@ width:0 1222px;
 .case{
     height: 300px;
     width: 75%;
+    border: solid var(--black) 1px;
     margin: 10px 12.5%;
     background-color:#F5F5F5;
-    border-radius: 36px;
+    border-radius: 18px;
     justify-content: space-between;
     align-items: start; 
     margin: 30px;
-    display: flex;
 }
 
 .page3{
@@ -336,13 +340,10 @@ width:0 1222px;
 .case{
    
     color: var(--title-color);
-    margin: 0 5%;
+    margin: 0 13%;
     display: flex;
     justify-content: space-between;
     align-items: start; 
-    height: 400px;
-    width: 1700px;
-    
 }
 
 .Ensavoirplus{
@@ -355,17 +356,6 @@ width:0 1222px;
     border-radius: 24px;
 }
 
-.Contacteznous{
-    width: 200px;
-    height:90px;
-    background-color: var(--black);
-    border: solid --black;
-    gap: 8px;
-    margin: 1px 5px;
-    border-radius: 24px;
-    color: var(--white);
-}
-
 .inscrire4{
     width: 200px;
     height: 90px;
@@ -376,56 +366,24 @@ width:0 1222px;
     color: var(--white);
 }
 .description5{
-    margin: 0px 10px;
-    font-size: 25px; 
+    margin: 25px 0;
+    width: 10px; 
 }
 
 .title5{
     font-size: 44px;
     font-weight: 700;
-    padding-bottom: 100px;
-    margin: 0 15px;
 }
 
 .texte5{
- display: flex;
- size: 350px;
- justify-content: center;
- 
-}
-
-.button{
-    margin: 90px 200px;
-    display: flex;
-}
-.ltext{
-    padding-bottom: 10px;
-    width: 900px;
-    margin: 33px 25px;
-}
-
-.text6{
-    margin:100px 100px;
-    width: 50%;
-    
-
-}
-
-.page4{
-    height:200px;
-    width: 100% ;
-    background-color: #F9FAFB;
     display: flex;
     justify-content: space-between;
-    content: none;
-    align-items: start;
-
-  
-   
-    
+    align-items: start; 
 }
 
-.imgL{
-    margin: 100px 500px;
-   
-}
+#map{
+    height: 1000px;
+    border: none;
+    border-radius: none;
+ }
+
